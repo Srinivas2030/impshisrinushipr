@@ -1568,6 +1568,7 @@ ol {
   }
   .header .navbar-nav .nav-item .sub-menu .nav-item a {
     padding: 10px 12px !important;
+   
   }
   .header .navbar-nav .nav-item .sub-menu li:hover {
     background: #fff !important;
@@ -1605,10 +1606,11 @@ ol {
     border-radius: 8px;
   }
   .header .navbar .navbar-nav .nav-item a:hover {
-    color: #2ed06e !important;
+    color: black !important;
+
   }
   .header .navbar .navbar-nav .nav-item a.active {
-    color: #2ed06e !important;
+    color: black !important;
   }
   .header .navbar-nav .nav-item {
     font-size: 100px;
@@ -1619,6 +1621,7 @@ ol {
   }
   .header .navbar-nav .nav-item a {
     padding: 12px 16px !important;
+    color: green;
   }
   .header .navbar-nav .nav-item a::before {
     display: none;
@@ -1657,7 +1660,7 @@ ol {
   }
   .header .navbar-nav .nav-item .sub-menu li {
     background: #fff !important;
-    color: #2ed06e !important;
+    color:green !important;
     font-size: 50px;
   }
   .header .navbar-nav .nav-item .sub-menu li.active {
