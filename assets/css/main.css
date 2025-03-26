@@ -5188,3 +5188,8 @@ blockquote span {
 .footer .copyright-area p a:hover {
   color: #2ed06e;
 }
+#msg{
+  color:#fff;
+  margin-bottom: 120px;
+  display: block;
+}
