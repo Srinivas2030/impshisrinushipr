@@ -1192,7 +1192,7 @@ ol {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  background: #2ed06e;
+  background: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1212,6 +1212,7 @@ ol {
   -webkit-transition: all .3s ease-out 0s;
   transition: all .3s ease-out 0s;
   border-radius: 5px;
+  color: #000;
 }
 
 .scroll-top:hover {
@@ -1219,7 +1220,8 @@ ol {
   box-shadow: 0 1rem 3rem rgba(35, 38, 45, 0.15) !important;
   -webkit-transform: translate3d(0, -5px, 0);
   transform: translate3d(0, -5px, 0);
-  background-color: #2ed06e;
+  background-color: #fff;
+  color: #000;
 }
 
 /* Overlay */
@@ -4206,7 +4208,10 @@ blockquote span {
 }
 
 .contact-us .contact-form .form-group textarea:focus {
-  border-color: #2ed06e;
+  border-color: #fff;
+}
+.contact-form .button .btn{
+  background-color: #fff;
 }
 
 .contact-us .contact-form .button {
@@ -4262,7 +4267,7 @@ blockquote span {
 .contact-us .contact-widget-wrapper .main-title p {
   font-size: 16px;
 }
-
+.contact-us
 .contact-us .contact-widget-wrapper .contact-widget-block {
   margin-bottom: 30px;
 }
