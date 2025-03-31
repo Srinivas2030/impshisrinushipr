@@ -2290,8 +2290,9 @@ ol {
 
 @media (max-width: 767px) {
   .freatures .content {
-    margin-top: 40px;
+ 
     color: #fff;
+    margin-top:-330px;font-size: 30px;
   }
 }
 
@@ -2317,6 +2318,9 @@ ol {
     font-size: 22px;
     line-height: 38px;
     color: #fff;
+  }
+  .freatures .content {
+    margin-bottom: -300px;
   }
 }
 
@@ -4212,10 +4216,23 @@ blockquote span {
 }
 .contact-form .button .btn{
   background-color: #fff;
+
 }
+.contact-form .button .btn::before{
+  background-color: #fff;
+  hover: #fff;
+  
+
+}
+
 
 .contact-us .contact-form .button {
   margin-top: 10px;
+  
+}
+.contact-us .contact-form .button::hover{
+  margin-top: 10px;
+  color:#2ed06e
 }
 
 .contact-us .contact-widget-wrapper {
