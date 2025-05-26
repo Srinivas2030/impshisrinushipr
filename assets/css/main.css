@@ -917,6 +917,13 @@ ol {
   }
 }
 
+@media only screen and (max-width: 768px){
+  .freatures .container{
+     padding-bottom:300px;
+  }
+}
+ 
+
 /* Bread Crumbs */
 .breadcrumbs {
   position: relative;
@@ -2318,6 +2325,11 @@ ol {
     font-size: 22px;
     line-height: 38px;
     color: #fff;
+    margin-bottom: 0px;
+  }
+
+  .freatures .image img{
+    padding-bottom: 350px;
   }
   .freatures .content {
     margin-bottom: -300px;
@@ -2351,7 +2363,7 @@ ol {
   line-height: 70px;
   text-align: center;
   color: #fff;
-  background-color: #2ed06e;
+  background-color: #2ed06e; 
   border-radius: 50%;
   position: absolute;
   left: 0;
@@ -2371,8 +2383,7 @@ ol {
 	Services CSS
 ========================================*/
 .services {
-  position: relative;
-  z-index: 0;
+  z-index: 10;
   background: linear-gradient(to bottom, rgba(108, 4, 113, 0.8), rgba(54, 54, 54, 0.8));
  
 }
@@ -5214,4 +5225,16 @@ blockquote span {
   color:#fff;
   margin-bottom: 120px;
   display: block;
+}
+
+@media only screen and (max-width:767px){
+  .freatures_about_us{
+    padding-top:50px;
+  }
+  .mission_image{
+    padding-top: 100px;
+  }
+  .clear_vision{
+    padding-bottom: 50px;
+  }
 }
